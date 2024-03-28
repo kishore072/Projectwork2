@@ -1,28 +1,33 @@
-## Title of the Project
+## Phishing Website Detection using Machine algorithm
 Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+My project leverages machine learning algorithms to detect phishing websites by analyzing various features such as URL properties and webpage content. Through training on a diverse dataset, our system aims to accurately differentiate between phishing and legitimate sites, enhancing online security. By integrating this technology into web browsers or security tools, users can effectively identify and avoid potential cyber threats.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+In my project, we're tackling the ever-present cybersecurity threat of phishing websites using advanced machine learning techniques. Phishing attacks are a constant concern, with hackers always finding new ways to deceive users and steal sensitive information. To combat this, we're harnessing the power of machine learning algorithms to analyze various aspects of websites, like their URLs, content, SSL certificates, and domain age. By training our model on a diverse dataset containing both legitimate and phishing sites, we're teaching it to accurately distinguish between the two types. We're rigorously testing and refining our system to ensure its reliability and effectiveness. Once perfected, our solution can seamlessly integrate into web browsers or security tools, providing users like myself with real-time protection while browsing online. By empowering individuals and organizations to spot and avoid phishing attempts, we're making a significant impact on cybersecurity, reducing the risk of data breaches and financial fraud. Our commitment to ongoing improvement means we're always staying ahead of the curve, adapting our system to counter new phishing tactics and keep users safe in today's digital landscape.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
+- Implementation of Advanced Machine Learning Algorithms.
+- Framework-Based Application for Deployment.
 - High scalability.
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Utilization of Specialized Data Formats.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* beautifulsoup4==4.9.3
+* Flask==2.0.2
+* googlesearch_python==1.0.1
+* numpy==1.21.4
+* pandas==1.3.4
+* python_dateutil==2.8.2
+* requests==2.25.1
+* scikit_learn==1.0.1
+* whois==0.9.13
+* gunicorn==20.1.0
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
@@ -52,8 +57,4 @@ This project serves as a foundation for future developments in assistive technol
 
 ## Articles published / References
 1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+2. Shouq Alnemari and Majid Alshammari, “Detecting Phishing Domains Using Machine Learning ”, APR. 2023.
